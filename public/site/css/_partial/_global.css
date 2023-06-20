@@ -1,0 +1,224 @@
+.text-main {
+    color: var(--main-dark-color) !important;
+}
+.border-main {
+    border-color: var(--main-dark-color) !important;
+}
+.bg-second-dark {
+    background: var(--second-dark-bg);
+}
+.main-bg {
+    background: var(--main-dark-color);
+}
+.main-color {
+    color: var(--main-dark-color);
+}
+.img-responsive {
+    width: 100%;
+    height: 100%;
+}
+.btn-outline-info,
+.btn-info {
+    font-size: 15px;
+    padding: 8px 12px 10px;
+    border-radius: 5px;
+    border: 2px solid var(--main-dark-color) !important;
+    color: #fff !important;
+}
+.btn-info:active,
+.btn-info:link,
+.btn-info:focus {
+    outline: none !important;
+    border-color: 10px !important;
+    box-shadow: none !important;
+}
+.btn-outline-info:hover {
+    background: var(--main-dark-color) !important;
+}
+.btn-info {
+    background: var(--main-dark-color) !important;
+}
+.btn-info:hover {
+    background: transparent !important;
+}
+.btn i.fa {
+    font-size: 23px;
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+.section {
+    padding: 100px 0 !important;
+}
+.section:not(:last-of-type) {
+    border-bottom: 1px solid #212121;
+}
+.head-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.head-title h3 {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 900;
+}
+.head-title h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 3px;
+    background: var(--main-dark-color);
+}
+.head-title .sub-title {
+    color: #ddd;
+    margin-top: 18px;
+    font-size: 16px;
+}
+/* scroll top button */
+.scroll-top {
+    position: fixed;
+    right: 25px;
+    bottom: -60px;
+    transition: bottom 0.4s ease-in-out;
+}
+.scroll-top .button-top {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background: var(--main-dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.scroll-top .button-top:hover {
+    border-radius: 50%;
+}
+.scroll-top .button-top i {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* form validation */
+.has-error .form-control {
+    border-color: #d63031 !important;
+}
+.has-error .help-block {
+    color: #d63031;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+/* fixed tools */
+.fixed-tools {
+    position: relative;
+    top: 150px;
+    left: 6px;
+    z-index: 10;
+    height: 409px;
+}
+.fixed-tools .social-media {
+    padding: 15px 25px;
+    position: relative;
+    height: calc(100% - 50px);
+    left: 0;
+}
+.fixed-tools .social-media ul {
+    margin-bottom: 20px;
+}
+.fixed-tools .social-media li a {
+    color: #eee;
+    transition: ease 0.4s color;
+}
+.fixed-tools .social-media li a:hover {
+    color: var(--main-dark-color);
+    text-shadow: 0 0 3px #222;
+}
+.fixed-tools #contact {
+    position: absolute;
+    left: -34px;
+    width: 142px;
+    height: 30px;
+    transform: rotate(-90deg);
+    background: var(--main-dark-color);
+    margin-top: 50px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    /* margin-top:10px */
+}
+.fixed-tools .colors {
+    height: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+.fixed-tools .colors .flat-colors {
+    position: absolute;
+    top: 25px;
+    left: -300px;
+    transition: left 0.5s linear;
+}
+
+.fixed-tools .colors .flat-colors.active {
+    left: 74px;
+}
+
+.fixed-tools .colors .flat-color {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-color: 1px solid #eee;
+    background: transparent;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.fixed-tools .colors .flat-color:nth-child(1) {
+    background: #d63031;
+}
+.fixed-tools .colors .flat-color:nth-child(2) {
+    background: #f39c12;
+}
+.fixed-tools .colors .flat-color:nth-child(3) {
+    background: #05c46b;
+}
+.fixed-tools .colors .flat-color:nth-child(4) {
+    background: #7d5fff;
+}
+.fixed-tools .colors .flat-color:nth-child(5) {
+    background: #00a8ff;
+}
+.colors .flat-color:nth-child(6) {
+    background: #ff793f;
+}
+
+.fixed-tools .params-icon i {
+    cursor: pointer;
+    animation: rotate infinite 2s linear;
+}
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
+
+/* letters effects */
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}

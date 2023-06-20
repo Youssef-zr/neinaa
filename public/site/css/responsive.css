@@ -1,0 +1,213 @@
+/* laptop screen */
+@media screen and (min-width: 992px) {
+    .navigation .navbar-collapse {
+        margin-left: 90px;
+    }
+}
+
+/* mobile to tablet screen global style */
+@media screen and (max-width: 992px) {
+    .section {
+        padding: 80px 0 !important;
+    }
+
+    /* section slider */
+    .section-slider {
+        margin-top: 26px !important;
+        margin-bottom: 40px;
+    }
+    .section-slider .fixed-tools {
+        top: 16px !important;
+    }
+    .section-slider .slider-content {
+        height: 480px !important;
+        width: 80% !important;
+        left: 0 !important;
+    }
+    .swiper-pagination-vertical.swiper-pagination-bullets,
+    .swiper-vertical > .swiper-pagination-bullets {
+        bottom: -44px !important;
+    }
+    .slider-caption {
+        top: 65px !important;
+        left: 0 !important;
+        width: 100% !important;
+        padding: 0 10px 0 15px !important;
+    }
+    .slider-caption .caption-title h1 {
+        font-size: 24px;
+    }
+    .slider-caption .caption-title h2 {
+        font-size: 22px;
+    }
+    .slider-caption p {
+        margin-bottom: 23px !important;
+    }
+
+    /* section about us */
+    .section-about-us .about-image {
+        margin-top: 40px;
+    }
+    .section-about-us .info .paragraph {
+        padding-right: 0;
+    }
+    /* section services */
+    .section-services .services [class*="col-12"]:first-of-type .service-item {
+        margin-bottom: 40px;
+    }
+    /* section portfolio */
+    .section-portfolio .portfolio-content .controles span.slash {
+        margin: 0 15px;
+    }
+    .section-portfolio .portfolio-content .controles .control-link {
+        top: -3px;
+    }
+    /* section job */
+    .section-get-me-job .button {
+        margin-top: 20px;
+    }
+    /* section contact us */
+    .section-contact
+        .info-list
+        > .row
+        [class*="col-12"]:not(:last-of-type)
+        .info-item {
+        margin-bottom: 40px !important;
+    }
+    /* section contact us */
+    .section-contact button[type="submit"] {
+        width: 100%;
+    }
+    /* style head title */
+    .head-title {
+        font-size: 17px !important;
+    }
+
+    .head-title span::after {
+        top: 16px !important;
+    }
+    .head-title h3 {
+        font-size: 28px !important;
+    }
+    .main-title {
+        font-size: 26px !important;
+    }
+
+    /* navigation bar */
+    .navbar-nav {
+        margin-top:15px
+    }
+    .navbar-nav .nav-item .nav-link {
+        background: var(--main-dark-color);
+        padding: 8px 15px;
+        margin: 8px 0;
+    }
+    .navbar-nav .nav-item.active .nav-link {
+        background:#eee;
+        color:var(--main-dark-color)
+    }
+    .navbar-nav .nav-item:not(.active):hover .nav-link {
+        color:#fff;
+        opacity:.8
+    }
+    .navbar-nav .nav-item.active .nav-link::after {
+        width: 0;
+        height: 0;
+    }
+}
+
+/* mobile screen */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .section-slider .slider-content {
+        width: calc(100% - 150px) !important;
+        left: 10px !important;
+    }
+    .section-slider .fixed-tools {
+        top: 24px !important;
+    }
+    .slider-caption {
+        top: 85px !important;
+        left: 0 !important;
+        width: 100% !important;
+        padding: 0 10px 0 15px !important;
+    }
+    .slider-caption .caption-title h1 {
+        font-size: 28px;
+    }
+    .slider-caption .caption-title h2 {
+        font-size: 24px;
+    }
+}
+
+/* tablet screen */
+@media screen and (min-width: 830px) and (max-width: 992px) {
+    .slider-caption {
+        left: 20px !important;
+    }
+    .slider-caption .caption-title h1 {
+        font-size: 32px;
+    }
+    .slider-caption .caption-title h2 {
+        font-size: 26px;
+    }
+    .slider-caption {
+        width: 80% !important;
+    }
+}
+
+/* laptop screen */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .section-slider {
+        margin-top: 20px;
+    }
+    .section-slider .slider-content {
+        height: 500px !important;
+        width: calc(100% - 150px) !important;
+        left: 10px !important;
+    }
+    .slider-caption {
+        left: 60px !important;
+        top: 80px !important;
+    }
+    .section-slider .fixed-tools {
+        top: 30px !important;
+    }
+}
+
+/* large laptop screen */
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .section-slider {
+        margin-top: 15px;
+    }
+    .section-slider .slider-content {
+        height: 600px !important;
+        width: calc(100% - 150px) !important;
+        left: 10px !important;
+    }
+    .slider-caption {
+        left: 75px !important;
+        top: 18% !important;
+    }
+    .section-slider .fixed-tools {
+        top: 100px !important;
+    }
+}
+
+/* extra large large laptop screen */
+@media screen and (min-width: 1450px) and (max-width: 3000px) {
+    .section-slider {
+        margin-top: 10px;
+    }
+    .section-slider .slider-content {
+        height: calc(100vh - 200px) !important;
+        width: calc(100% - 130px) !important;
+        left: 20px !important;
+    }
+    .slider-caption {
+        left: 120px !important;
+        top: 25% !important;
+    }
+    .section-slider .fixed-tools {
+        top: 100px !important;
+    }
+}
